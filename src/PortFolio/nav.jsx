@@ -1,6 +1,7 @@
 import  { useState } from 'react';
 import { FaLinkedin,FaGithub} from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import myImg from '../assets/Yuvraj.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
     <nav className="bg-slate-500 bg-opacity-15  ml-5 shadow-sm shadow-slate-400 mr-4 text-white mt-3 rounded-lg p-2">
       <div className="container mx-auto flex justify-center items-center">
         <div className="hidden md:flex lg:gap-16 gap-8  ">
-        <img src="/images/square-image (3).png" width={30} height={30} className="rounded-full mt-0" />
+        <img src={myImg} width={30} height={30} className="rounded-full mt-0" />
           <a href="#" className="text-white trans hover:underline ">Home</a>
           <a href="#" className="text-white hover:underline ">About</a>
           <a href="#" className="text-white hover:underline ">Services</a>
