@@ -39,7 +39,7 @@ export const Hero= ()=>{
 
           <div ref = {by} className=" w-96 h-96 rounded-full md:block hidden text-white mt-6 p-5  shadow-md  shadow-black">
           
-            <img src="/images/square-image (3).png"  height={100} className="rounded-full"/>
+            <img src="/images/Yuvraj.png"  height={100} className="rounded-full"/>
           
           </div>
 
